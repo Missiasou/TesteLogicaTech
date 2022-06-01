@@ -35,5 +35,6 @@ public class Calculadora {
         }
 
         System.out.println(resultado);
+        sc.close();
     }
 }

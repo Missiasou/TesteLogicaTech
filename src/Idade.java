@@ -10,8 +10,6 @@ public class Idade {
         final String ANSI_RED = "\u001B[31m";
 
 
-
-
         int idade;
         Scanner sc = new Scanner(System.in);
 
@@ -26,5 +24,6 @@ public class Idade {
         }else{
             System.out.println(ANSI_RED + "Por favor, digite uma idade válida" + ANSI_RESET);
         }
+        sc.close();
     }
 }

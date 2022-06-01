@@ -16,6 +16,8 @@ public class Recursividade {
         result = fator(numeroEscolhido);
         System.out.println("O fatorial de " + numeroEscolhido + " é: " + result);
 
+        sc.close();
+
     }
 
     private static int fator(int num) {
